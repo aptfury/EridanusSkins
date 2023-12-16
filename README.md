@@ -26,26 +26,42 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 ###### Below you will find a list of the current sprints, backlogs, and completion logs for each of the skins. Any requests will be added to the backlog.
 
 <details>
-<summary>#### Final Girl's Lament</summary>
+<summary>Final Girl's Lament</summary>
 
 <details>
-<summary>##### CURRENT SPRINT</summary>
+<summary>CURRENT SPRINT</summary>
+---
 
 ###### HTML
+
+- List Item
+
+---
 
 ###### CSS
 
+- List Item
+
+---
+
 ###### JAVASCRIPT
+
+- List Item
+
+---
 </details>
 
 <details>
-<summary>##### BACKLOG</summary>
+<summary>BACKLOG</summary>
+---
 
-###### README & ISSUES
+##### README & ISSUES
 - Insert Request Form Link
 - Create Sprint Workspace and Issue Template
 
-###### HTML
+---
+
+##### HTML
 - Add boardwrappers template from documentation
 - Add calendar template from documentation
 - Add guidebook template (if available) from documentation
@@ -79,7 +95,9 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 - Configure topics layout
 - Se if there's HTML needed for FizzyElf's Autotracker
 
-###### CSS
+---
+
+##### CSS
 - Take stock of what elements, classes, etc. will have same designs for concise design.
 - Take stock of what elements, classes, etc. will have like designs for concise design.
 - Add boardwrappers template from documentation
@@ -117,7 +135,9 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
   - Should separate them aesthetically from boards but be similar enough to draw likeness/similarities
   - See if there's CSS needed for FizzyElf's AutoTracker
 
-###### JAVASCRIPT
+---
+
+##### JAVASCRIPT
 - Create page up/down and menu side bar navigation
   - Break down into pieces once elements and design are constructed
 - Create header hover with manipulation as needed for fluid use and function
@@ -147,7 +167,29 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
   - Break down into parts
 - Create project webhook github-clickup-discord tracking
 
-###### TESTING & QA
+---
+</details>
+
+<details>
+<summary>COMPLETION LOG</summary>
+
+###### HTML
+
+---
+
+###### CSS
+
+---
+
+###### JAVASCRIPT
+
+---
+</details>
+
+<details>
+<summary>TESTING & QA</summary>
+---
+
 - Boardwrappers
   - Log issues
   - Fix issues
@@ -193,19 +235,12 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 - Finished Skin
   - Log issues
   - Fix issues
-</details>
-
-<details>
-<summary>##### COMPLETION LOG</summary>
-
-###### HTML
-
-###### CSS
-
-###### JAVASCRIPT
-</details>
+- Project Webhook
+  - Log issues
+  - Fix issues
 
 ---
+</details>
 </details>
 
 ---

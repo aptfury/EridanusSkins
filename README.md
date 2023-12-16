@@ -27,6 +27,7 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 
 <details>
 <summary>Final Girl's Lament</summary>
+###### Below is a list of all of the current sprint items, issues, backlogs, test and quality assurance items, and any other additional features that need to be tracked for project development, production, release, and maintenance.
 
 <details>
 <summary>CURRENT SPRINT</summary>

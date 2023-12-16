@@ -34,19 +34,16 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 <summary>CURRENT SPRINT</summary>
 
 ###### HTML
-
 - [ ] List Item
 
 ---
 
 ###### CSS
-
 - [ ] List Item
 
 ---
 
 ###### JAVASCRIPT
-
 - [ ] List Item
 
 ---
@@ -181,17 +178,17 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 <summary>COMPLETION LOG</summary>
 
 ###### HTML
-- [ ]
+- [ ] List Item
 
 ---
 
 ###### CSS
-- [ ] 
+- [ ] List Item
 
 ---
 
 ###### JAVASCRIPT
--[ ] 
+- [ ] List Item
 
 ---
 </details>

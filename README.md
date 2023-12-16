@@ -30,7 +30,6 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 
 <details>
 <summary>CURRENT SPRINT</summary>
----
 
 ###### HTML
 
@@ -53,7 +52,6 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 
 <details>
 <summary>BACKLOG</summary>
----
 
 ##### README & ISSUES
 - Insert Request Form Link
@@ -188,7 +186,6 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 
 <details>
 <summary>TESTING & QA</summary>
----
 
 - Boardwrappers
   - Log issues
@@ -238,8 +235,6 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 - Project Webhook
   - Log issues
   - Fix issues
-
----
 </details>
 </details>
 

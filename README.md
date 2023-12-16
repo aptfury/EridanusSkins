@@ -181,14 +181,17 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 <summary>COMPLETION LOG</summary>
 
 ###### HTML
+- [ ]
 
 ---
 
 ###### CSS
+- [ ] 
 
 ---
 
 ###### JAVASCRIPT
+-[ ] 
 
 ---
 </details>

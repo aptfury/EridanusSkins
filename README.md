@@ -54,7 +54,9 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 
 ##### README & ISSUES
 - [ ] Insert Request Form Link
-- [ ] Create Sprint Workspace and Issue Template
+- [ ] Create Sprint Workspace
+- [ ] Create Issue Templates
+- [ ] Create Project Webhook
 
 ---
 
@@ -169,7 +171,6 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
   - [ ] Under consideration
   - [ ] Break down into parts
 - [ ] Create any javascript if the guidebooks require them
-- [ ] Create project webhook github-clickup-discord tracking
 
 ---
 </details>
@@ -195,6 +196,8 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 
 <details>
 <summary>TESTING & QA</summary>
+
+###### The following tests should be performed at multiple stages throughout production. Once completed, the TQA item should be check off and have the date and any relevant notes added, after which and unchecked and undated copy of the TQA item should be recreated in a subsequent list.
 
 - [ ] Boardwrappers
   - [ ] Log issues

@@ -33,13 +33,35 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 <details>
 <summary>CURRENT SPRINT</summary>
 
+###### README & ISSUES
+- [ ] Insert Request Form Link
+- [ ] Create Sprint Workspace
+- [ ] Create Issue Templates
+
 ###### HTML
-- [ ] List Item
+- [x] Add boardwrappers template from documentation
+- [x] Add calendar template from documentation
+- [ ] Add guidebook template (if available) from documentation
+- [x] Add memberlist template from documentation
+- [x] Add posts template from documentation
+- [x] Add subforums template from documentation
+- [x] Add topics from documentation
+- [x] Edit boardwrapper to set up the base of the header
 
 ---
 
 ###### CSS
-- [ ] List Item
+- [x] Add boardwrappers template from documentation
+- [x] Add calendar template from documentation
+- [ ] Add guidebook template (if available) from documentation
+- [x] Add main profiles template from documentation
+- [x] Add memberlist template from documentation
+- [x] Add posts template from documentation
+- [x] Add subforums template from documentation
+- [x] Add topics from documentation
+- [x] Edit boardwrapper to set up the base of the header
+- [ ] Take stock of what elements, classes, etc. will have same designs for concise design.
+- [ ] Take stock of what elements, classes, etc. will have like designs for concise design.
 
 ---
 
@@ -53,25 +75,12 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 <summary>BACKLOG</summary>
 
 ##### README & ISSUES
-- [ ] Insert Request Form Link
-- [ ] Create Sprint Workspace
-- [ ] Create Issue Templates
 - [ ] Create Project Webhook
 
 ---
 
 ##### HTML
-- [ ] Add boardwrappers template from documentation
-- [ ] Add calendar template from documentation
-- [ ] Add guidebook template (if available) from documentation
-- [ ] Add main profiles template from documentation
-  - [ ] Configure header for messaging management
-- [ ] Add memberlist template from documentation
-- [ ] Add posts template from documentation
-- [ ] Add subforums template from documentation
-- [ ] Add topics from documentation
 - [ ] Edit boardwrapper
-  - [ ] Edit boardwrapper to set up the base of the header
   - [ ] Edit the boardwrapper to create the header
   - [ ] Edit the boardwrapper to create the header:hover contents
   - [ ] Edit boardwrapper to set up navigation
@@ -100,18 +109,7 @@ These skins are not to be only and exclusively by the approved parties: Destiny 
 ---
 
 ##### CSS
-- [ ] Take stock of what elements, classes, etc. will have same designs for concise design.
-- [ ] Take stock of what elements, classes, etc. will have like designs for concise design.
-- [ ] Add boardwrappers template from documentation
-- [ ] Add calendar template from documentation
-- [ ] Add guidebook template (if available) from documentation
-- [ ] Add main profiles template from documentation
-- [ ] Add memberlist template from documentation
-- [ ] Add posts template from documentation
-- [ ] Add subforums template from documentation
-- [ ] Add topics from documentation
 - [ ] Edit boardwrapper
-  - [ ] Edit boardwrapper to set up the base of the header
   - [ ] Edit boardwrapper header to manipulate image into specified design
   - [ ] Edit boardwrapper header:hover to get the specified design
   - [ ] Edit boardwrapper to set up navigation design

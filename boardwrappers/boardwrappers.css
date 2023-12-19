@@ -1,0 +1,115 @@
+/*=============================================== *
+* Jcink.com Forum Hosting Stylesheet
+* ==============================================
+* #Version:	1.0.2
+*=============================================== */
+
+html { overflow-x: auto; } 
+form { display:inline; }
+
+/****************************************
+Body Background & Text Style
+*****************************************/
+
+body { 
+    font-family: Arial, sans-serif; 
+    font-size: 12px; 
+    color: #222; margin:0px;
+    padding:0px; 
+        background-color:#E1E1E1; 
+    text-align:center;
+}
+
+/****************************************
+Board Width
+*****************************************/
+
+#wrapper { 
+text-align:left;
+    width:980px;
+    margin: 20px auto 30px;
+    background: #fbfbfb;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding-bottom: 5px;
+}
+
+#innerwrapper { 
+padding: 0 10px;
+}
+
+/****************************************
+Search Bar 
+*****************************************/
+
+#searchbar {
+    display: block;	
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 8px;
+}
+
+#searchbar .search-container {
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4) inset;
+    border: 1px solid #D8D8D8;
+    display: block;
+    height: 26px;
+    position: relative;
+    width: 200px;
+}
+
+#searchbar .search-input {
+    background: none repeat scroll 0 0 transparent;
+    border: 0;
+    color: #808080;
+    font-size: 12px;
+    width: 192px;
+    height: 26px;
+    font-family: Arial, sans-serif;
+    padding: 1px 0 0 8px;
+}
+
+#searchbar .search-input:focus {
+    color: #000000;
+}
+
+#searchbar .search-button {
+    background: #800000 url(//files.jcink.net/themes/default/magnifying-glass.png) no-repeat 50% 50%;
+    border: 0;
+    bottom: 0;
+    margin: 0;
+    border-radius: 0;
+    display: block;
+    height: 26px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-indent: -3000em;
+    top: 0;
+    width: 26px;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+/****************************************
+Navigation
+*****************************************/
+
+#navi br { 
+    display: none; 
+}
+
+#navstrip  { 
+    font-weight:bold;
+    padding:6px 0px 16px 0px; 
+}
+
+/****************************************
+Miscellaneous
+*****************************************/
+
+/* Skin selector dropdown */
+#skin_selector { 
+    margin: 10px 0; 
+}

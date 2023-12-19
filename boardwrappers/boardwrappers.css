@@ -12,11 +12,11 @@ Body Background & Text Style
 *****************************************/
 
 body { 
+    background-color: #19191A;
     font-family: Arial, sans-serif; 
     font-size: 12px; 
     color: #222; margin:0px;
-    padding:0px; 
-        background-color:#E1E1E1; 
+    padding:0px;
     text-align:center;
 }
 
@@ -25,21 +25,31 @@ Board Width
 *****************************************/
 
 #wrapper { 
-text-align:left;
-    width:980px;
+    text-align:left;
+    width: 80%;
     margin: 20px auto 30px;
-    background: #fbfbfb;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    background: #19191A;
     padding-bottom: 5px;
+    border: 0 10px solid #1A1A1C;
 }
 
-#innerwrapper { 
-padding: 0 10px;
+/****************************************
+Header & Header Hover
+*****************************************/
+
+#headercontainer {
+    background-color: #1A1A1C;
+    border-bottom: 5px solid #5C5E74;
+    width: 100%;
+}
+
+#headerbg {
+    background-image: url();
+    /* Add in transform elements */
 }
 
 /****************************************
 Search Bar 
-*****************************************/
 
 #searchbar {
     display: block;	
@@ -91,6 +101,7 @@ Search Bar
     cursor: pointer;
     box-shadow: none;
 }
+*****************************************/
 
 /****************************************
 Navigation

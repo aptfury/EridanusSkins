@@ -4,7 +4,10 @@
 * #Version:	1.0.2
 *=============================================== */
 
-html { overflow-x: auto; } 
+html {
+    overflow-x: auto;
+    background-color: #060B0F;
+} 
 form { display:inline; }
 
 /****************************************
@@ -12,7 +15,7 @@ Body Background & Text Style
 *****************************************/
 
 body { 
-    background-color: #19191A;
+    background-color: #060B0F;
     font-family: Arial, sans-serif; 
     font-size: 12px; 
     color: #222; margin:0px;
@@ -31,6 +34,7 @@ Board Width
     background: #19191A;
     padding-bottom: 5px;
     border: 0 10px solid #1A1A1C;
+    background-color: #080F14;
 }
 
 /****************************************
@@ -38,90 +42,66 @@ Header & Header Hover
 *****************************************/
 
 #headercontainer {
-    background-color: #1A1A1C;
+    background-color: #080F14;
     border-bottom: 5px solid #5C5E74;
     width: 80%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
     margin: auto;
 }
 
 #headerbg {
-    background-image: url();
+    background-image: url('');
     /* Add in transform elements */
 }
 
-#Pages #header, #Pages #footer {
+#header {
     display: none;
 }
 
 /****************************************
-Search Bar 
+Side Nav
+*****************************************/
 
-#searchbar {
-    display: block;	
-    float: right;
-    position: relative;
-    right: 10px;
-    top: 8px;
-}
-
-#searchbar .search-container {
-    background-color: #FFFFFF;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.4) inset;
-    border: 1px solid #D8D8D8;
-    display: block;
-    height: 26px;
-    position: relative;
-    width: 200px;
-}
-
-#searchbar .search-input {
-    background: none repeat scroll 0 0 transparent;
-    border: 0;
-    color: #808080;
-    font-size: 12px;
-    width: 192px;
-    height: 26px;
-    font-family: Arial, sans-serif;
-    padding: 1px 0 0 8px;
-}
-
-#searchbar .search-input:focus {
-    color: #000000;
-}
-
-#searchbar .search-button {
-    background: #800000 url(//files.jcink.net/themes/default/magnifying-glass.png) no-repeat 50% 50%;
-    border: 0;
-    bottom: 0;
-    margin: 0;
-    border-radius: 0;
-    display: block;
-    height: 26px;
-    padding: 0;
+#side-nav {
     position: absolute;
-    right: 0;
-    text-indent: -3000em;
-    top: 0;
-    width: 26px;
-    cursor: pointer;
-    box-shadow: none;
-}
-*****************************************/
-
-/****************************************
-Navigation
-*****************************************/
-
-#navi br { 
-    display: none; 
+    left: 12%;
 }
 
-#navstrip  { 
-    font-weight:bold;
-    padding:6px 0px 16px 0px; 
+#nav-list {
+    background-color: #0D171E;
+    width: 30px;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    border-radius: 20px;
+    border: 2px solid silver;
+}
+
+#nav-list-wrapper {
+    padding: 2px;
+    background-color: linear-gradient(to bottom, red, purple)
+}
+
+#expanded-nav {
+    background-color: #0D171E;
+    list-style: none;
+    padding: 0;
+}
+
+#nav-list a, a:hover, a:active {
+    color: silver;
+    font-size: 15px;
+}
+
+#up-nav {
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+#nav-list li {
+    box-sizing: border-box;
+    padding: 5px 0;
 }
 
 /****************************************
@@ -131,4 +111,20 @@ Miscellaneous
 /* Skin selector dropdown */
 #skin_selector { 
     margin: 10px 0; 
+}
+
+#navi {
+    display: none;
+}
+
+#navsrip {
+    display: none;
+}
+
+#submenu {
+    display: none;
+}
+
+#userlinks {
+    display: none;
 }

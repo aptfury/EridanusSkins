@@ -40,12 +40,20 @@ Header & Header Hover
 #headercontainer {
     background-color: #1A1A1C;
     border-bottom: 5px solid #5C5E74;
-    width: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 #headerbg {
     background-image: url();
     /* Add in transform elements */
+}
+
+#Pages #header, #Pages #footer {
+    display: none;
 }
 
 /****************************************

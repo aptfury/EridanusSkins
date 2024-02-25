@@ -1,26 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-	<title><% TITLE %></title> 
-	<% CSS %> 
-	<% JAVASCRIPT %> 
-    </head> 
-    <body>
-	<div id="wrapper">
+	<head> 
+		<title><% TITLE %></title> 
+		<% CSS %> 
+		<% JAVASCRIPT %> 
+		<script src="https://kit.fontawesome.com/d680e34822.js" crossorigin="anonymous"></script>
+	</head> 
+	<body id="<!-- |input_act| -->">
 		<section id="headercontainer">
-			<section id="headerbg"><a href="index.php"><{LOGO}></a></section>
+			<section id="headerbg">
+				<a href="index.php"><{LOGO}></a>
+			</section>
+			<p>Welcome! <a href="index.php?act=Login&CODE=00">LOGIN</a> | <a href="index.php?act=Reg&CODE=00">REGISTER</a></p>
 		</section>
-		<div id="navi">
-			<% NAVIGATION %>
+		<% BOARD HEADER %>
+		<div id="side-nav">
+			<ol id="nav-list">
+				<li id="home-nav">
+					<a href="index.php"><i class="fa-solid fa-house"></i></a>
+				</li>
+				<li id="guide-nav">
+					<a href="index.php"><i class="fa-solid fa-book"></i></a>
+				</li>
+				<li id="notif-nav">
+					<a href="index.php"><i class="fa-solid fa-bell"></i></a>
+				</li>
+				<li id="menu-nav">
+					<a href="index.php"><i class="fa-solid fa-square-caret-right"></i></a>
+				</li>
+				<li id="themes-nav">
+					<a href="index.php"><i class="fa-solid fa-palette"></i></a>
+				</li>
+				<li id="togglecolormode-nav">
+					<a href="index.php"><i class="fa-solid fa-circle-half-stroke"></i></a>
+				</li>
+				<li id="up-nav">
+					<a href="index.php"><i class="fa-solid fa-angles-up"></i></a>
+				</li>
+				<li id="down-nav">
+					<a href="index.php"><i class="fa-solid fa-angles-down"></i></a>
+				</li>
+			</ol>
+			<div id="expanded-nav">
+				<h4>Navigation</h4>
+				<ol id="menu-list">
+					<li id="profile-nav">
+						<a href="index.php?act=UserCP"><i class="fa-solid fa-user"></i></a>
+					</li>
+					<li id="messages-nav">
+						<a href="index.php?act=Msg"><i class="fa-solid fa-envelope"></i></a>
+					</li>
+					<li id="friends-nav">
+						<a href="index.php"><i class="fa-solid fa-user-group"></i></a>
+					</li>
+					<li id="tracker-nav">
+						<a href="index.php"><i class="fa-solid fa-rectangle-list"></i></a>
+					</li>
+					<li id="tickets-nav">
+						<a href="index.php"><i class="fa-solid fa-ticket-simple"></i></a>
+					</li>
+					<li id="members-nav">
+						<a href="index.php?act=Members"><i class="fa-solid fa-users"></i></a>
+					</li>
+					<li id="calendar-nav">
+						<a href="index.php"><i class="fa-solid fa-calendar-days"></i></a>
+					</li>
+					<li id="discord-nav">
+						<a href="index.php"><i class="fa-brands fa-discord"></i></a>
+					</li>
+					<li id="settings-nav">
+						<a href="index.php"><i class="fa-solid fa-gears"></i></a>
+					</li>
+				</ol>
+				<h4>Staff Links</h4>
+				<ol id="menu-list">
+					<li id="admincp-nav">
+						<a href="index.php"><i class="fa-solid fa-user-tie"></i></a>
+					</li>
+					<li id="modcp-nav">
+						<a href="index.php"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+					</li>
+					<li id="affiliates-nav">
+						<a href="index.php"><i class="fa-solid fa-users-between-lines"></i></a>
+					</li>
+				</ol>
+			</div>
 		</div>
-			<% BOARD %> 
+		<div id="wrapper">
+			<div id="innerwrapper">
+				<% BOARD %> 
 
-			<% AFFS %>
-		<div id="skin_selector">
-			<% SKIN_SELECTOR %>
+				<% AFFS %>
+				<div id="skin_selector">
+					<% SKIN_SELECTOR %>
+				</div>
+				<% COPYRIGHT %>
+			</div>
 		</div>
-		<% COPYRIGHT %>
-		<script>$('#logo a img[src="style_images/1/spacer.gif"]').replaceWith('<!-- |board_name| -->');</script>
-	</div>
-    </body> 
+	</body> 
 </html>
